@@ -8,7 +8,7 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2">
+            <ul className="list-disc pl-2 lg:grid lg:grid-cols-2 lg:gap-1">
                 <li>Node.js</li>
                 <li>Express</li>
                 <li>Sequelize</li>
@@ -31,13 +31,12 @@ const TAB_DATA = [
     {
         title: "Certifications",
         id: "certifications",
-        content: (
-            <ul className="list-disc pl-2">
+        content: ( 
+            <ul className="list-disc pl-2 lg:grid lg:grid-cols-2 ">
                 <li>Fullstack Developer Harisenin.com</li>
-                <li>Journey Towards Fronted Dev Mastery & Succesfull Career as Backend Engineer</li>
-                <li>Pemograman JavaScript - Pemula sampai Akhir</li>
                 <li>SAP Analytics Cloud Training</li>
                 <li>Junior Web Development</li>
+                <li>Pemograman JavaScript - Pemula sampai Akhir</li>
             </ul>
         ),
     },
@@ -55,15 +54,15 @@ const AboutSection = () => {
 
     return (
         <section className="text-white ">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-24 xl:px-16">
                 <Image
                     src={
                         "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/online-school-equipment-home.jpg?alt=media&token=38818c8b-aa06-41c3-8717-923e605436ee"
                     }
-                    height={1000}
-                    width={1000}
+                    height={500}
+                    width={500}
                     sizes="100vw"
-                    className="rounded-lg lg:w-auto lg:h-[470px]"
+                    className="rounded-lg lg:h-[400px] lg:w-full"
                 />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>

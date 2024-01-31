@@ -40,14 +40,15 @@ const HeroSection = () => {
                         </button>
                     </div>
                 </div>
-                <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+                <div className="col-span-5 place-self-center mt-4">
                     <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[500] lg:h-[500] relative">
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/hero-image-removebg-preview.png?alt=media&token=5e60ec7f-64c2-44b3-9408-7ef5c32ebed6"
+                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/Diqiiiii-removebg.png?alt=media&token=33d297d8-a6aa-4d5e-82f7-1264fca59274"
                             alt="hero Image"
-                            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            width={300}
-                            height={300}
+                            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 h-[300px] w-auto lg:h-auto"
+                            width={500}
+                            height={500}
+                            sizes="100vw"
                         />
                     </div>
                 </div>
