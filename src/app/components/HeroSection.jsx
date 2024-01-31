@@ -9,7 +9,7 @@ const HeroSection = () => {
         <section>
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
-                    <h1 className="mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                    <h1 className="mb-4 text-3xl sm:text-5xl lg:text-6xl font-extrabold">
                         <span>Hello, I'm {""}</span>
                         <br />
                         <TypeAnimation
@@ -40,10 +40,10 @@ const HeroSection = () => {
                         </button>
                     </div>
                 </div>
-                <div className="col-span-5 place-self-center mt-4">
+                <div className="col-span-5 place-self-center mt-5">
                     <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[500] lg:h-[500] relative">
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/Diqiiiii-removebg.png?alt=media&token=33d297d8-a6aa-4d5e-82f7-1264fca59274"
+                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/output-onlinepngtools.png?alt=media&token=fb36b01b-0300-4396-91c3-1189196a2109"
                             alt="hero Image"
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 h-[300px] w-auto lg:h-auto"
                             width={500}
