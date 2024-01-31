@@ -59,6 +59,7 @@ const AboutSection = () => {
                     src={
                         "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/online-school-equipment-home.jpg?alt=media&token=38818c8b-aa06-41c3-8717-923e605436ee"
                     }
+                    alt="diqi's photo"
                     height={500}
                     width={500}
                     sizes="100vw"
