@@ -35,9 +35,9 @@ const HeroSection = () => {
                         <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black">
                             Hire me
                         </button>
-                        <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
-                            <a href="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/Muhammad%20Shiddiqi%20Musyaffa'-resume%20English%20%5Brevision%204%5D.pdf?alt=media&token=ebe4bb6a-6b55-4f16-8602-dad31aa9c999">Download CV</a>
-                        </button>
+                        <a href="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/Muhammad%20Shiddiqi%20Musyaffa'-resume%20English%20%5Brevision%204%5D.pdf?alt=media&token=ebe4bb6a-6b55-4f16-8602-dad31aa9c999">
+                            <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3">Download CV</button>
+                        </a>
                     </div>
                 </div>
                 <div className="col-span-5 place-self-center mt-5">
