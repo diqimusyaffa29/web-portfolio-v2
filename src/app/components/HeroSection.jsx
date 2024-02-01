@@ -7,7 +7,7 @@ import {TypeAnimation} from "react-type-animation";
 const HeroSection = () => {
     return (
         <section>
-            <div className="grid grid-cols-1 sm:grid-cols-12">
+            <div className="grid grid-cols-1 sm:grid-cols-12 text-white">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="mb-4 text-3xl sm:text-5xl lg:text-6xl font-extrabold">
                         <span>Hello, I'm {""}</span>
