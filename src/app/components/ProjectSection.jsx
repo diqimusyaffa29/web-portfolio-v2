@@ -2,15 +2,15 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 
 const projectData = [
-    {
-        id: 1,
-        title: "Next.js Portfolio Website",
-        description: "This is my Portfolio Website using Nextjs",
-        image: "/images/projects/1.png",
-        tag: ["All", "Web"],
-        gitUrl: "https://github.com/diqimusyaffa29/web-portfolio-v2",
-        previewUrl:"/",
-    },
+    // {
+    //     id: 1,
+    //     title: "Next.js Portfolio Website",
+    //     description: "This is my Portfolio Website using Nextjs",
+    //     image: "/images/projects/1.png",
+    //     tag: ["All", "Web"],
+    //     gitUrl: "https://github.com/diqimusyaffa29/web-portfolio-v2",
+    //     previewUrl:"/",
+    // },
     {
         id: 2,
         title: "Website Profile of BPSC",
@@ -47,7 +47,7 @@ const projectData = [
         image: "/images/projects/5.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/diqimusyaffa29/fs-xiaomi-phone",
-        previewUrl:"/",
+        previewUrl:"https://xiaomi-phone.vercel.app/",
     },
 ];
 

@@ -40,6 +40,16 @@ const TAB_DATA = [
             </ul>
         ),
     },
+    {
+        title: "Experiences",
+        id: "experiences",
+        content: ( 
+            <ul className="list-disc pl-2 lg:grid lg:grid-cols-2 ">
+                <li>RSI Sultan Agung Banjarbaru (Present)</li>
+                <li>KONI Kota Banjarmasin</li>
+            </ul>
+        ),
+    },
 ];
 
 const AboutSection = () => {
@@ -54,7 +64,7 @@ const AboutSection = () => {
 
     return (
         <section className="text-white ">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-24 xl:px-16">
+            <div className=" md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-24 xl:px-16 xl:py-0 xl:pt-24">
                 <Image
                     src={
                         "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/online-school-equipment-home.jpg?alt=media&token=38818c8b-aa06-41c3-8717-923e605436ee"
@@ -63,7 +73,7 @@ const AboutSection = () => {
                     height={500}
                     width={500}
                     sizes="100vw"
-                    className="rounded-lg lg:h-[400px] lg:w-full"
+                    className="rounded-lg lg:h-[400px] lg:w-full lg:mb-[70px]"
                 />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
@@ -90,6 +100,11 @@ const AboutSection = () => {
                             selectTab={() => handleTabChange("certifications")}
                             active={tab === "certifications"}>
                             Certifications
+                        </TabButton>
+                        <TabButton
+                            selectTab={() => handleTabChange("experiences")}
+                            active={tab === "experiences"}>
+                            Experiences
                         </TabButton>
                     </div>
                     <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
