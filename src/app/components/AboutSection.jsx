@@ -8,7 +8,7 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul className="list-disc pl-2 lg:grid lg:grid-cols-2 lg:gap-1">
+            <ul className="list-disc lg:grid lg:grid-cols-2 lg:gap-1">
                 <li>Node.js</li>
                 <li>Express</li>
                 <li>Sequelize</li>
@@ -22,7 +22,7 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul className="list-disc pl-2">
+            <ul className="list-disc">
                 <li>Fullstack Developer Harisenin.com</li>
                 <li>Politeknik Negeri Banjarmasin</li>
             </ul>
@@ -32,7 +32,7 @@ const TAB_DATA = [
         title: "Certifications",
         id: "certifications",
         content: ( 
-            <ul className="list-disc pl-2 lg:grid lg:grid-cols-2 ">
+            <ul className="list-disc lg:grid lg:grid-rows-2">
                 <li>Fullstack Developer Harisenin.com</li>
                 <li>SAP Analytics Cloud Training</li>
                 <li>Junior Web Development</li>
@@ -44,9 +44,9 @@ const TAB_DATA = [
         title: "Experiences",
         id: "experiences",
         content: ( 
-            <ul className="list-disc pl-2 lg:grid lg:grid-cols-2 ">
-                <li>RSI Sultan Agung Banjarbaru (Present)</li>
-                <li>KONI Kota Banjarmasin</li>
+            <ul className="list-disc lg:grid lg:grid-rows-2">
+                <li>RSI Sultan Agung Banjarbaru <strong>(August 2024 - Present)</strong></li>
+                <li>KONI Kota Banjarmasin <strong>(February 2023 - March 2024)</strong></li>
             </ul>
         ),
     },
@@ -107,7 +107,7 @@ const AboutSection = () => {
                             Experiences
                         </TabButton>
                     </div>
-                    <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
+                    <div className="mt-2 pl-5">{TAB_DATA.find((t) => t.id === tab).content}</div>
                 </div>
             </div>
         </section>
