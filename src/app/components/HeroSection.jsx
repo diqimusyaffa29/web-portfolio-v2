@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import dq from "../../../public/dq.webp"
 
 import {TypeAnimation} from "react-type-animation";
 
@@ -43,7 +44,7 @@ const HeroSection = () => {
                 <div className="col-span-5 place-self-center mt-5">
                     <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[500] lg:h-[500] relative">
                         <Image
-                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/output-onlinepngtools.png?alt=media&token=fb36b01b-0300-4396-91c3-1189196a2109"
+                            src={dq}
                             alt="hero Image"
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-[45%] left-1/2 h-[300px] w-auto lg:h-auto"
                             width={500}
