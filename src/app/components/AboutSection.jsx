@@ -1,7 +1,8 @@
 "use client";
-import React, {useTransition, useState} from "react";
+import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import computer from "../../../public/online-school-equipment-home.webp"
 
 const TAB_DATA = [
     {
@@ -31,7 +32,7 @@ const TAB_DATA = [
     {
         title: "Certifications",
         id: "certifications",
-        content: ( 
+        content: (
             <ul className="list-disc lg:grid lg:grid-rows-2">
                 <li>Fullstack Developer Harisenin.com</li>
                 <li>SAP Analytics Cloud Training</li>
@@ -43,7 +44,7 @@ const TAB_DATA = [
     {
         title: "Experiences",
         id: "experiences",
-        content: ( 
+        content: (
             <ul className="list-disc lg:grid lg:grid-rows-2">
                 <li>RSI Sultan Agung Banjarbaru <strong>(August 2024 - Present)</strong></li>
                 <li>KONI Kota Banjarmasin <strong>(February 2023 - March 2024)</strong></li>
@@ -66,9 +67,7 @@ const AboutSection = () => {
         <section className="text-white ">
             <div className=" md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-24 xl:px-16 xl:py-0 xl:pt-24">
                 <Image
-                    src={
-                        "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-6163a.appspot.com/o/online-school-equipment-home.jpg?alt=media&token=38818c8b-aa06-41c3-8717-923e605436ee"
-                    }
+                    src={computer}
                     alt="diqi's photo"
                     height={500}
                     width={500}
