@@ -3,13 +3,13 @@ import React from "react";
 import Image from "next/image";
 import dq from "../../../public/dq.webp"
 
-import {TypeAnimation} from "react-type-animation";
+import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
     return (
-        <section>
+        <section className="w-full h-full bg-white">
             <div className="grid grid-cols-1 sm:grid-cols-12 text-white">
-                <div className="col-span-7 place-self-center text-center sm:text-left">
+                <div className="col-span-7 place-self-center text-center sm:text-left ">
                     <h1 className="mb-4 text-3xl sm:text-5xl lg:text-6xl font-extrabold">
                         <span>Hello, I'm {""}</span>
                         <br />
@@ -19,18 +19,17 @@ const HeroSection = () => {
                                 1000,
                                 "Web Developer",
                                 1000,
-                                "Mobile Developer",
-                                1000,
-                                "UI/UX Designer",
+                                "Software Engineer",
                                 1000,
                             ]}
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
+                            className="inline-block min-w-[280px] sm:min-w-[450px] lg:min-w-[600px]"
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Hello there! I'm Diqi Full Stack Developer From Indonesia 👋
+                        Hello there! Diqi here, I'm a Full Stack Developer
                     </p>
                     <div>
                         <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black">
